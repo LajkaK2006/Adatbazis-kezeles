@@ -28,10 +28,19 @@ body{
     background-color: #675724;
 }
 
+h1 a{
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    font-size: 18px;
+    padding: 14px 16px;
+}
+
 .logo img{
     margin: 5px 10px;
     width: 45px;
     float: left;
+    
 }
 
 .en{
