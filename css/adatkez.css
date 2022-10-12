@@ -1,0 +1,102 @@
+body{
+    background-image: url("../img/Winter\ terep.jpeg");
+    background-size: cover;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.nav{
+    overflow: hidden;
+    background-color: #356600;
+}
+
+.nav a{
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
+    color: #802900;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: black;
+}
+
+.nav a.active{
+    background-color: #675724;
+}
+
+.logo img{
+    margin: 5px 10px;
+    width: 45px;
+    float: left;
+}
+
+.en{
+    overflow: hidden;
+    text-align: center;
+    padding: 30px;
+    background-color: #34495e;;
+
+
+}
+
+.en h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+}
+
+.border{
+    display: block;
+    background: #3498db;
+    width: 160px;
+    height: 3px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.pimg{
+    margin-bottom: 40px;
+
+}
+
+.pimg a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4 all;
+}
+
+.pimg a:hover>img{
+    filter: none;
+}
+
+.en-text{
+    width: 600px;
+    margin: auto;
+    color: black;
+    overflow: hidden;
+    font-size: 20px;
+    height: 0px;
+    text-align: justify;
+}
+
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
