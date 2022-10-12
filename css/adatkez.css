@@ -6,34 +6,10 @@ body{
 
 }
 
-.nav{
-    overflow: hidden;
-    background-color: #356600;
-}
-
-.nav a{
-    float: right;
+h1{
     text-align: center;
-    font-size: 18px;
-    padding: 14px 16px;
-    color: #802900;
-    text-decoration: none;
-}
-
-.nav a:hover{
-    background-color: black;
-}
-
-.nav a.active{
-    background-color: #675724;
-}
-
-h1 a{
-    text-decoration: none;
-    text-align: center;
-    float: right;
-    font-size: 18px;
-    padding: 14px 16px;
+    float: center;
+    color: forestgreen;
 }
 
 .logo img{
@@ -43,20 +19,25 @@ h1 a{
     
 }
 
-.en{
+.linkek{
     overflow: hidden;
     text-align: center;
     padding: 30px;
-    background-color: #34495e;;
-
-
+    background-color: darkslategray;
 }
 
-.en h1{
+.linkek h1{
     text-transform: uppercase;
     margin-bottom: 60px;
     color: white;
     font-size: 40px;
+    text-align: center;
+}
+
+.linkek a{
+    text-decoration: underline;
+    color: white;
+    text-align: left;
 }
 
 .border{
@@ -92,7 +73,7 @@ h1 a{
     filter: none;
 }
 
-.en-text{
+.linkek-text{
     width: 600px;
     margin: auto;
     color: black;
