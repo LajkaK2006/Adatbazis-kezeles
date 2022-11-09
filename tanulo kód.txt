@@ -1,0 +1,28 @@
+CREATE TABLE `tanulo` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `vezetek_nev` varchar(50) COLLATE utf8_hungarian_ci NOT NULL,
+  `kereszt_nev` varchar(50) COLLATE utf8_hungarian_ci NOT NULL,
+  `szuletesi_datum` date NOT NULL,
+  `neme` tinyint(1) NOT NULL,
+  `csoport` int(10) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+--
+-- Indexek a kiírt táblákhoz
+--
+
+--
+-- A tábla indexei `tanulo`
+--
+ALTER TABLE `tanulo`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- A kiírt táblák AUTO_INCREMENT értéke
+--
+
+--
+-- AUTO_INCREMENT a táblához `tanulo`
+--
+ALTER TABLE `tanulo`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
