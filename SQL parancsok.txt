@@ -1,0 +1,7 @@
+Átlag számítás:
+SELECT
+    AVG(`jegy`)
+FROM
+    `ellenorzo`
+WHERE
+    1
