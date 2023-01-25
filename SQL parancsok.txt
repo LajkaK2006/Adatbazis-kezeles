@@ -24,3 +24,30 @@ WHERE
     1
 GROUP BY
     `tantargy_neve`
+
+Lekérdezések:
+
+Betű szerinti lekérdezés:
+SELECT
+    *
+FROM
+    ellenorzo
+WHERE
+    tantargy_neve LIKE "m%";
+
+SELECT
+    *
+FROM
+    ellenorzo
+WHERE
+    tantargy_neve LIKE "%e%";
+
+Nemzetiség szerinti lekérdezés és betűrendbe rakás:
+SELECT
+    `nev`
+FROM
+    `versenyzo`
+WHERE
+    nemzetiseg = 'HUN'
+ORDER BY 
+	`nev`;
