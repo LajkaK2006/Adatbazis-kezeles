@@ -51,3 +51,25 @@ WHERE
     nemzetiseg = 'HUN'
 ORDER BY 
 	`nev`;
+
+Frissítés:
+UPDATE
+    `ellenorzo`
+SET
+    `tantargy_neve_id` = 10
+WHERE
+    `tantargy_neve` = "tortenelem"
+
+
+Beillesztés:
+INSERT INTO `tantargy_neve` (`id`,`neve`) VALUES
+(NULL, "adatbaziskezeles"),
+(NULL, "angol_nyelv"),
+(NULL, "fizika"),
+(NULL, "halozat"),
+(NULL, "magyar"),
+(NULL, "matematika"),
+(NULL, "digitalis_kultura"),
+(NULL, "szakmai_angol"),
+(NULL, "testneveles"),
+(NULL, "tortenelem");
