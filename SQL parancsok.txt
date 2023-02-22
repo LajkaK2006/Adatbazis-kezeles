@@ -61,7 +61,7 @@ WHERE
     `tantargy_neve` = "tortenelem"
 
 
-Beillesztés:
+Beillesztés(tantárgyak):
 INSERT INTO `tantargy_neve` (`id`,`neve`) VALUES
 (NULL, "adatbaziskezeles"),
 (NULL, "angol_nyelv"),
@@ -73,3 +73,16 @@ INSERT INTO `tantargy_neve` (`id`,`neve`) VALUES
 (NULL, "szakmai_angol"),
 (NULL, "testneveles"),
 (NULL, "tortenelem");
+
+Beillesztés(tanárok):
+INSERT INTO `tanar_nevsor` (`id`,`tanar_neve`) VALUES
+(NULL, 'Halászné Kiss Melinda Ottilia'),
+(NULL, 'Dargai Krisztina'),
+(NULL, 'Németh József'),
+(NULL, 'Várnai Virág'),
+(NULL, 'Péterffy Gáspár Mátyás'),
+(NULL, 'Vasók Krisztián'),
+(NULL, 'Csontos Dénes'),
+(NULL, 'Domján Annamária'),
+(NULL, 'Takács István'),
+(NULL, 'Kováts Kornél Tamás');
